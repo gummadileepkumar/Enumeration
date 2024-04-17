@@ -31,83 +31,63 @@ Google Hacking:
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
-Following searches for all the sites that is in the domain yahoo.com
+Following searches for all the sites that is in the domain amazon.in
+
+### DEVELOPED BY : Gumma Dileep Kumar
+### REGISTER NO : 212222240032
+## OUTPUT:
+![ethical_3 1](https://github.com/gummadileepkumar/Enumeration/assets/118707761/2ec4e6c5-3af9-476b-84bf-2ea3ac35c17d)
+
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
-Following searches for pdf file in the domain yahoo.com
+Following searches for pdf file in the domain amazon.in
 
+![ethical_3 2](https://github.com/gummadileepkumar/Enumeration/assets/118707761/dff4b1d2-de1c-454a-954c-077a87d050db)
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![ethical_3 3](https://github.com/gummadileepkumar/Enumeration/assets/118707761/d65dd9cf-aa71-4e9d-a984-2e9dbfa35a8a)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+![ethical_3 4](https://github.com/gummadileepkumar/Enumeration/assets/118707761/e310cfec-c96e-4377-bb64-178cdeacfa3a)
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![ethical_3 5](https://github.com/gummadileepkumar/Enumeration/assets/118707761/bb361cb1-f844-4ee4-9845-b0c4984ab711)
+
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![ethical_3 6](https://github.com/gummadileepkumar/Enumeration/assets/118707761/cbf263af-7ddd-4419-8de1-9ac18030f44a)
+
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+![ethical_3 7](https://github.com/gummadileepkumar/Enumeration/assets/118707761/3f86f3f4-8cf6-4763-afee-5b5473602f22)
 
  
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
-provides the ability to perform:
-Check all NS records for zone transfers
-Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
-Perform common SRV Record Enumeration
-Top level domain expansion
-## OUTPUT:
+## DNS Recon
 
+![ethical_3 8](https://github.com/gummadileepkumar/Enumeration/assets/118707761/d30618c1-d762-49a0-adea-6f5eba952644)
 
+## dnsenum
+![ethical_3 9](https://github.com/gummadileepkumar/Enumeration/assets/118707761/b1adeccd-9929-4373-acba-f2061923ba3a)
 
+![ethical_3 10](https://github.com/gummadileepkumar/Enumeration/assets/118707761/09999864-619c-42c4-ad0e-9cdf00a9ca1e)
 
 
 
 
-##dnsenum
-Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
+## smtp-user-enum
+![ethical_3 11](https://github.com/gummadileepkumar/Enumeration/assets/118707761/2f74381d-88e2-4bcf-8d29-8689e389ff66)
 
-Get the host’s addresses (A record).
-Get the namservers (threaded).
-Get the MX record (threaded).
-Perform axfr queries on nameservers and get BIND versions(threaded).
-Get extra names and subdomains via google scraping (google query = “allinurl: -www site:domain”).
-Brute force subdomains from file, can also perform recursion on subdomain that have NS records (all threaded).
-Calculate C class domain network ranges and perform whois queries on them (threaded).
-Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
-Write to domain_ips.txt file ip-blocks.
-This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-
-
-##smtp-user-enum
-Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
-
-
-In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
-
-select any username in the first column of the above file and check the same
-
-
-#Telnet for smtp enumeration
-Telnet allows to connect to remote host based on the port no. For smtp port no is 25
-telnet <host address> 25 to connect
-and issue appropriate commands
-  
- ##Output
-  
-  
 
 ## nmap –script smtp-enum-users.nse <hostname>
-
-The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
-
-
-## OUTPUT:
+![ethical_3 12](https://github.com/gummadileepkumar/Enumeration/assets/118707761/b40f752b-98bc-4b9d-9ec8-00b47f1a4d9c)
 
 
 ## RESULT:
-The Google hacking keywords and enumeration tools were identified and executed successfully
+The Google hacking keywords and enumeration tools were identified and executed successfully.
 
